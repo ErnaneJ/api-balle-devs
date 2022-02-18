@@ -65,7 +65,7 @@ $ git clone https://github.com/ErnaneJ/api-balle-devs.git
 $ npm i
 ```
 
-- Configure as conexões (use [./.env.example](end.example))
+- Configure as conexões (use [./.env.example](https://github.com/ErnaneJ/api-balle-devs/blob/master/.env.example))
 
 - Inicie a aplicação em modo de desenvolvimento:
 
