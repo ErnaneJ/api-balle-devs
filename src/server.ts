@@ -7,7 +7,7 @@ import { routes } from "./routes";
 
 const app = express();
 
-const allowedOrigins = ['http://localhost:5000', 'http://localhost:3000', 'https://ballerinidevs.netlify.app/'];
+const allowedOrigins = ['http://localhost:5000', 'http://localhost:3000', 'https://ballerinidevs.netlify.app/', '*.netlify.app/', "https://netlify.app/"];
 app.use(cors({
   origin: (origin, callback)  => {
     if(!origin) return callback(null, true);
