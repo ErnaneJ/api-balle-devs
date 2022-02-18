@@ -49,7 +49,8 @@ type DevRequest = {
 ```
 
 ## 💻 Acesse
-<a target="_blank" href="https://api-balle-dev.herokuapp.com/">Clique aqui</a> para acessar a aplicação.
+<a target="_blank" href="https://api-balle-dev.herokuapp.com/">Clique aqui</a> para acessar a API.
+<a target="_blank" href="https://github.com/ErnaneJ/ballerini-devs">Clique aqui</a> para o sistema.
 
 ## 💡 Use
 
