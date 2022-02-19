@@ -31,7 +31,7 @@ API desenvolvida como complemento extra ao desafio da tecnologia da semana - [Re
 |  Método |     Rota   |                  Ação                  | Auth    | 
 |---------|------------|----------------------------------------|---------|
 |  GET    | /dev       | Retorna os desenvolvedores cadastrados |   Não   |   
-|  POST   | /dev       | Cadastra um novo deseolvedor           |   Não   |   
+|  POST   | /dev       | Cadastra um novo desenvolvedor         |   Não   |   
 |  PUT    | /dev/`:id` | Atualiza os dados de um desenvolvedor  |   Não   |
 |  DELETE | /dev/`:id` | Deleta o cadastro de um desenvolvedor  |   Não   |
 
@@ -44,6 +44,7 @@ type DevRequest = {
   office:string; 
   nick_github:string; 
   linkedin:string; 
+  secret_key:string; 
   website:string; 
 };
 ```
