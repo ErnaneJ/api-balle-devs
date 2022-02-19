@@ -22,6 +22,9 @@ export class Dev {
   nick_github: string;
 
   @Column()
+  secret_key: string;
+
+  @Column()
   linkedin: string;
 
   @Column()

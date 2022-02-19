@@ -18,7 +18,7 @@ const app = express();
 //     return callback(null, true);
 //   }
 // }));
-app.use(cors()); // @TODO: restringit urls presentes na white list
+app.use(cors()); // @TODO: restringir urls presentes na white list
 app.use(express.json());
 app.use(routes);
 

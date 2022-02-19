@@ -12,6 +12,7 @@ export class CreateDevs1640118283043 implements MigrationInterface {
           { name: "description", type: "varchar" },
           { name: "avatar", type: "varchar" },
           { name: "office", type: "varchar" },
+          { name: "secret_key", type: "varchar" },
           { name: "nick_github", type: "varchar" },
           { name: "linkedin", type: "varchar" },
           { name: "website", type: "varchar" },
